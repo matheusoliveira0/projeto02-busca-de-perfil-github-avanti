@@ -11,7 +11,6 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #1f1f1f;
-  /* position: relative; */
   overflow-x: hidden;
   display: flex;
   align-items: center;
@@ -19,7 +18,7 @@ body {
   z-index: 1;
 }
 
-/* gradiente do direito */
+/* gradiente do canto direito */
 body::before {
   content: "";
   position: absolute;
@@ -50,8 +49,8 @@ body::after {
 /* bolinhas do background*/
 .background-dots {
   position: fixed;
-  top: 4px;
-  left: 110px;
+  top: 24px;
+  left: 108px;
   width: 239px;
   height: 225px;
   background-image: radial-gradient(
@@ -65,7 +64,6 @@ body::after {
 
 .container {
   display: none;
-  /* border: 1px solid red; */
   width: 1156px;
   height: 537px;
   background-color: #000000;
@@ -92,7 +90,6 @@ body::after {
   height: 45px;
 }
 .search-bar {
-  /* border: 1px solid blue; */
   width: 503px;
   height: 62px;
 }
@@ -126,7 +123,6 @@ button {
 }
 
 .search-result {
-  /* border: 1px solid red; */
   width: 804px;
   min-height: 257px;
   border-radius: 25px;
@@ -152,7 +148,6 @@ button {
 .search-result-user-description {
   width: 448px;
   height: 123px;
-  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   gap: 15px;
